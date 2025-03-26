@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+.section1 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.logo1 {
+    width: 75px;
+    height: 42px;
+}
+
+.logo {
+    margin-top: 10px;
+}
+
+
+.input {
+    position: relative;
+}
+
+.input i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+    color: blue;
+    padding-left: 10px;
+}
+
+
+.inputcss {
+    width: 680px;
+    height: 50px;
+    border-radius: 30px;
+    border-color: blue;
+    border: 0.5px solid blue;
+
+    outline: none;
+    padding-left: 50px;
+
+
+}
+
+
+#hesabim1{
+    font-size: 10px;
+}
+
+.location i {
+    font-size: 25px;
+}
+
+
+.sebet i{
+    font-size: 23px;
+}
+
+
+.profil i{
+    font-size: 23px;
+}
+
+
+
+.katagories{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    height: 30px;
+    gap: 25px;
+
+
+}
+.image2{
+    width: 30px;
+    height: 30px;
+}
+.moda{
+    text-decoration: none;
+    padding-bottom: 10px;
+    color: black;
+    display: flex;
+}
+
+
+.images{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 sütunlu grid */
+    gap: 10px;
+}
+
+
+.sekil{
+    border-radius: 10px;
+}
+
+.sekil1{
+    width: 100%;
+}
+.shortcutsarea {
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: #edeff3;
+
+    box-sizing: border-box;
+    margin: 15px auto 0 auto;
+    padding: 16px;
+}
+
+.shortcutsarea ul{
+    display: flex;
+    width: 100%;
+}
+
+
+.shortcutsarea ul li{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.logo10{
+width: 60px;
+height: 60px;
+}
+
+
+.span{
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
